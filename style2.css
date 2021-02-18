@@ -1,0 +1,49 @@
+body {
+	font-size: 18px;
+	color: #483d37;
+	background-color:#e3c8b5;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	text-align: center;	
+}
+
+.welcome {
+	background: url(img/image_2.jpg) center no-repeat;
+   background-size: contain;
+}
+
+img.align-center {
+	display: block;
+	align:right;
+	background: red;	
+}
+
+a:link {
+	text-decoration: none;
+	color: #483d37;
+	padding: 10px;
+}
+
+a:hover {
+	color: #483d37;
+}
+
+textarea {
+	width: 300px;
+	height: 300px;
+	background-color: mistyrose;
+}
+
+.forum {
+	position: absolute;
+	left: 800px;
+	font-size: 14px;
+	font-style: italic;
+	margin: 10px;
+	padding: 15px;
+	width: 300px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="Compatible" content="IE=edge, chrome=1">
+	<title>licznik odwiedzin</title>
+</head>
+
+<body>
+	
+	<!-- visit counter -->
+	<p style='text-align:center;'>
+		Liczba odwiedzin strony od 01.03.2017 roku:
+		<?php
+			include 'licznik.php;
+			if(($ile = getCounter()) !==false)
+			echo $ile;
+			else
+			echo 'nieznana';
+		?>
+	</p>
+</body>
+</html>

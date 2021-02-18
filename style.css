@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	background: url("img/image_1.jpg") center no-repeat;
+	background-size: cover;
+	color: #483d37;
+}
+
+h1 {
+	font-style: italic;
+	text-align:center;
+	margin:50px auto 50px auto;
+	text-transform:uppercase;
+	font-family: 'Lora', serif;
+	font-size: 26px;
+	font-weight: 200px;
+}
+
+.form-rejestration {
+	margin:auto;
+	padding-top:15px;
+	padding-bottom: 10px;
+	width:500px;
+	background-color:#e3c8b5;
+	opacity: 0.9;
+	text-align:center;
+	border: 2px solid #ecdcae;
+	border-radius:4px;	
+}
+
+.rejestration {
+	text-align:right; 
+	padding-right:10px;
+	color: darkblue;
+}
+
+.error {
+	color:red;
+	margin-bottom:10px;
+	margin-top: 10px;
+}
+
+.rejestration-new-user {
+	position: relative;
+	left: 600px;
+	top: 30px;
+	width: 340px;
+	height:auto;
+	padding: 20px;
+	background-color:#e3c8b5;
+	opacity: 0.9;
+	border: 2px solid #ecdcae;
+	border-radius:2px;
+}
+
+
+a.link {
+	text-decoration:none;
+	color: #483d37;
+}
+
+.link:hover {
+	background-color: #ffff80;
+}
+
+input[type=text], input[type=password] {
+	width: 300px;
+	background-color:#e8aead;
+	border: 4px solid #ecdcae;
+	border-radius: 6px;
+	padding: 10px;
+	outline: none;
+	font-size: 13px;
+}
+
+input[type=text]:focus, input[type=password]:focus	 {
+	color: #564943;
+	background-color:#e8aead;
+}
+
+input[type=submit] {
+	background-color: #217f43;
+	opacity:0.5;
+	width:150px;
+	font-size:13px;
+	color: black;
+	padding: 5px;
+	border: 2px solid #ecdcae;
+	border-radius: 6px;
+}
+
+input[type=submit]:hover {
+	background-color: #217f43;
+	opacity:0.8;
+}
+
+
+
+	
+
