@@ -30,7 +30,9 @@
 <html lang="pl">
 <head>
 	<meta charset="utf-8"/>
-	<meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+	<meta http-equiv="Content-Security-Policy" content="default-src *;
+   		img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
+   		style-src  'self' 'unsafe-inline' *">
 	<title>Sim Kot - gra przeglądarkowa</title>
 	<link rel="stylesheet" href="style2.css" type="text/css"/>
 </head>
