@@ -119,7 +119,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome1">
+	<meta http-equiv="Content-Security-Policy" content="default-src *;
+   		img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
+   		style-src  'self' 'unsafe-inline' *">
 	
 	<title>Sim Kot - załóż darmowe konto!</title>
 	<script src='https://www.google.com/recaptcha/api.js'></script>
