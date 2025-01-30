@@ -13,7 +13,7 @@
 <html lang="pl">
 <head>
 	<meta charset="utf-8"/>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+	<meta https-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
 	<title>Sim Kot - gra przeglądarkowa</title>	
 	<link rel="stylesheet" href="style.css" type="text/css"/>
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">	
